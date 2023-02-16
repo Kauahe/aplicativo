@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela inicial</title>
+    <style>
+         body
+        {
+            background-image: url(fundo_2.jpg);
+             overflow: hidden; 
+             width: 100%;
+            height: 100vh;     
+        }
+
+        .principal
+        {
+            border-style: solid;
+            border-width: 5px;
+            width: 95%;
+            height: 95vh;
+        }
+        .texto1
+        {
+            position: absolute;
+            font-size:30px;
+            top: 310px;
+            left: 75px;  
+        }
+
+        .cupcake
+        {
+            position: absolute;
+            border-radius: 50px;
+            left: 130px;
+            width: 130px;   
+            top: 180px; 
+        }
+
+        .abelha
+        {
+            position: relative;
+            width: 350px;
+            top: 350px;
+            left: -10px;
+            animation: abelha 5s infinite ease;
+            
+        }
+        
+        @keyframes abelha 
+        {
+            0% { rotate: 0deg;}
+            10% { rotate: 0deg;}
+            20% { rotate: 0deg;}
+            30% { rotate: 0deg;}
+            40% { rotate: 0deg;}
+            50% { rotate: 0deg;}
+            60% { rotate: 0deg;}
+            70% { rotate: 0deg;}
+            80% { rotate: 0deg;}
+            90% { rotate: 0deg;}
+            100% { rotate: 0deg;}
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="principal">
+
+    
+     <img src="abelha.gif" class="abelha"
+
+     <div class="cupcake" >
+        <img class="cupcake" src="cupcake.png"  width="100px" >
+     </div>  
+
+     <div class="texto1">
+        The Inclusive Bakery
+     </div>
+    </div>
+</body>
+</html>
